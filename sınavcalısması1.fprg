@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="&#246;zge turan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-09 08:00:09 &#214;&#214;"/>
+        <attribute name="created" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMDk7MDc6NTU6MTEgw5bDljszODQz"/>
+        <attribute name="edited" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMDk7MDg6MDA6MDkgw5bDljsxOzM5NDk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A" type="Integer" array="False" size=""/>
+            <assign variable="A" expression="0"/>
+            <do expression="A&lt;3">
+                <output expression="&quot;MERHABA DUNYA&quot;" newline="True"/>
+                <assign variable="A" expression="A+1"/>
+            </do>
+        </body>
+    </function>
+</flowgorithm>

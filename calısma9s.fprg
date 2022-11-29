@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="&#246;zge turan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-05 08:45:25 &#214;&#214;"/>
+        <attribute name="created" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMDU7MDg6MzQ6MDUgw5bDljszODQw"/>
+        <attribute name="edited" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMDU7MDg6NDU6MjUgw5bDljsxOzM5NTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <assign variable="c" expression="0"/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <do expression="a&lt;=b">
+                <assign variable="c" expression="c+a"/>
+                <assign variable="a" expression="a+1"/>
+            </do>
+            <output expression="c" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

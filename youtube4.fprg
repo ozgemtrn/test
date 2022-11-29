@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="&#246;zge turan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-11 09:25:25 &#214;&#214;"/>
+        <attribute name="created" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMTE7MDk6MjM6MTkgw5bDljszODQx"/>
+        <attribute name="edited" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMTE7MDk6MjU6MjUgw5bDljsxOzM5NDg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <output expression="&quot;1 den 100 e kadar olan tek rakamlar&#305; yazd&#305;ral&#305;m&quot;" newline="True"/>
+            <for variable="a" start="1" end="100" direction="inc" step="2">
+                <output expression="a" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

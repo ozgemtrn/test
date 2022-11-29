@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="&#246;zge turan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-11 11:49:24 &#214;&#214;"/>
+        <attribute name="created" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMTE7MTA6NTU6NTUgw5bDljszODM4"/>
+        <attribute name="edited" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMTE7MTE6NDk6MjQgw5bDljsxOzM5NDY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, x1, x2, D" type="Integer" array="False" size=""/>
+            <output expression="&quot; a*x^2+b*x+c fonks&#305;ynun s&#305;ras&#305;yla a b c deg&#305;senler&#305;n&#305; g&#305;r&#305;n&#305;z&quot;" newline="True"/>
+            <input variable="a"/>
+            <if expression="a==0">
+                <then>
+                    <output expression="&quot;hatal&#305; g&#305;r&#305;s a s&#305;f&#305;rdan farkl&#305; olmal&#305;d&#305;r&quot;" newline="True"/>
+                </then>
+                <else>
+                    <input variable="b"/>
+                    <input variable="c"/>
+                    <assign variable="D" expression="b^2+4*a*c"/>
+                    <if expression="D&gt;0">
+                        <then>
+                            <assign variable="x1" expression="(-b+Sqrt(D))/(2*a)"/>
+                            <assign variable="x2" expression="(-b-Sqrt(D))/(2*a)"/>
+                            <output expression="x1" newline="True"/>
+                            <output expression="x2" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;real koku  yoktur&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

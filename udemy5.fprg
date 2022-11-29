@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="&#246;zge turan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-16 12:48:33 &#214;S"/>
+        <attribute name="created" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMTY7MTI6Mzk6NDEgw5ZTOzM3MTE="/>
+        <attribute name="edited" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMTY7MTI6NDg6MzMgw5ZTOzE7MzgyMA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="kdv, a, b, c" type="Real" array="False" size=""/>
+            <output expression="&quot;kdv oran&#305;n&#305; g&#305;r&#305;n&#305;z&quot;" newline="True"/>
+            <input variable="kdv"/>
+            <output expression="&quot;urunun sat&#305;s f&#305;yat&#305;nn&#305; g&#305;r&#305;n&#305;z&quot;" newline="True"/>
+            <input variable="a"/>
+            <assign variable="b" expression="a*(kdv/100)"/>
+            <assign variable="c" expression="b+a"/>
+            <output expression="&quot;urune uygulanan kdv tutar&#305;: &quot;&amp; b" newline="True"/>
+            <output expression="&quot;urununn yen&#305; f&#305;yat&#305;: &quot;&amp; c" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

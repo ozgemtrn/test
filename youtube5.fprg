@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="&#246;zge turan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-11 10:42:57 &#214;&#214;"/>
+        <attribute name="created" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMTE7MDk6MjU6Mjkgw5bDljszODQ0"/>
+        <attribute name="edited" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMTE7MTA6NDI6NTcgw5bDljsxOzM5NDQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="t, &#305;, j, n" type="Integer" array="False" size=""/>
+            <output expression="&quot;poz&#305;t&#305;f tamm say&#305; g&#305;r&#305;n&#305;z&quot;" newline="True"/>
+            <input variable="n"/>
+            <assign variable="&#305;" expression="1"/>
+            <for variable="j" start="1" end="n" direction="inc" step="1">
+                <for variable="t" start="1" end="n" direction="inc" step="1">
+                    <assign variable="&#305;" expression="t+J+&#305;"/>
+                </for>
+            </for>
+            <output expression="&quot;unutma ozge n de sonnlanmas&#305;n&#305; &#305;sted&#305;g&#305;n t ve j g&#305;rd&#305;g&#305;n n say&#305;s&#305;n&#305;n 1 fazlas&#305; sekl&#305;nde yazd&#305;r&#305;l&#305;&#305;r&quot;" newline="True"/>
+            <output expression="j" newline="True"/>
+            <output expression="&#305;" newline="True"/>
+            <output expression="t" newline="True"/>
+            <output expression="n" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="&#246;zge turan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-21 06:13:32 &#214;S"/>
+        <attribute name="created" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMjE7MDU6MzY6Mjggw5ZTOzM3MTE="/>
+        <attribute name="edited" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMjE7MDY6MTM6MzIgw5ZTOzE7MzgxMA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="&#305;stenenasalsay&#305;say&#305;s&#305;, bulunanasalsay&#305;say&#305;s&#305;, sayac, asalkontroldeg&#305;sken&#305;, kontroled&#305;lensay&#305;" type="Integer" array="False" size=""/>
+            <output expression="&quot;kac tane asal say&#305; gormek &#305;sted&#305;g&#305;nn&#305;z&#305; yaz&#305;n&#305;z&quot;" newline="True"/>
+            <input variable="&#305;stenenasalsay&#305;say&#305;s&#305;"/>
+            <assign variable="kontroled&#305;lensay&#305;" expression="2"/>
+            <assign variable="bulunanasalsay&#305;say&#305;s&#305;" expression="0"/>
+            <while expression="&#305;stenenasalsay&#305;say&#305;s&#305;&gt;bulunanasalsay&#305;say&#305;s&#305;">
+                <assign variable="asalkontroldeg&#305;sken&#305;" expression="0"/>
+                <for variable="sayac" start="2" end="kontroled&#305;lensay&#305;/2" direction="inc" step="1">
+                    <if expression="kontroled&#305;lensay&#305;%sayac==0">
+                        <then>
+                            <assign variable="asalkontroldeg&#305;sken&#305;" expression="1"/>
+                        </then>
+                        <else/>
+                    </if>
+                </for>
+                <if expression="asalkontroldeg&#305;sken&#305;==0">
+                    <then>
+                        <output expression="kontroled&#305;lensay&#305;" newline="True"/>
+                        <assign variable="bulunanasalsay&#305;say&#305;s&#305;" expression="bulunanasalsay&#305;say&#305;s&#305;+1"/>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="kontroled&#305;lensay&#305;" expression="kontroled&#305;lensay&#305;+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

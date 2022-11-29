@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="&#246;zge turan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-05 06:54:11 &#214;S"/>
+        <attribute name="created" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMDU7MDY6NDc6MzUgw5ZTOzM3MTQ="/>
+        <attribute name="edited" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMDU7MDY6NTQ6MTEgw5ZTOzE7MzgxNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="say&#305;" type="Integer" array="False" size=""/>
+            <output expression="&quot;poz&#305;t&#305;f b&#305;r tam say&#305; g&#305;r&#305;n&#305;z&quot;" newline="True"/>
+            <input variable="say&#305;"/>
+            <if expression="(say&#305;-1)%4==0">
+                <then>
+                    <output expression="&quot;say&#305;n&#305;z b&#305;r h&#305;lbert say&#305;s&#305;d&#305;r&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;say&#305;n&#305;z b&#305;r h&#305;lbert say&#305;s&#305; deg&#305;ld&#305;r&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

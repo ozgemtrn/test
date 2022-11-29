@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="&#246;zge turan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-17 09:10:25 &#214;&#214;"/>
+        <attribute name="created" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMTc7MDk6MDI6MDYgw5bDljszODQw"/>
+        <attribute name="edited" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMTc7MDk6MTA6MjUgw5bDljsxOzM5NDg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="toplam, sayac, say&#305;" type="Integer" array="False" size=""/>
+            <assign variable="toplam" expression="0"/>
+            <for variable="sayac" start="1" end="10" direction="inc" step="1">
+                <output expression="sayac &amp; &quot;.&quot; &amp; &quot; say&#305;y&#305; g&#305;r&#305;n&#305;z&quot;" newline="True"/>
+                <input variable="say&#305;"/>
+                <if expression="say&#305;%2==0">
+                    <then>
+                        <assign variable="toplam" expression="toplam+say&#305;"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="&quot;g&#305;rd&#305;g&#305;n&#305;z c&#305;ft say&#305;lar&#305;n toplam&#305; &quot; &amp; toplam" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

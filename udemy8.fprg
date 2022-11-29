@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="&#246;zge turan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-16 02:09:09 &#214;S"/>
+        <attribute name="created" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMTY7MDE6MzI6Mjkgw5ZTOzM3MDg="/>
+        <attribute name="edited" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMTY7MDI6MDk6MDkgw5ZTOzE7MzgxOQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="boy, kilo, vki" type="Real" array="False" size=""/>
+            <output expression="&quot;s&#305;ras&#305;yla metre c&#305;ns&#305;nden boy ve kilo gir&#305;n&#305;z&quot;" newline="True"/>
+            <input variable="boy"/>
+            <input variable="kilo"/>
+            <assign variable="vki" expression="kilo/(boy^2)"/>
+            <if expression="vki&lt;18.5">
+                <then>
+                    <output expression="&quot;zay&#305;fs&#305;n bu ne k&#305;lo al&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="vki&gt;=18.5 &amp;&amp; vki&lt;=24.9">
+                        <then>
+                            <output expression="&quot;iyisin iyi sagl&#305;kl&#305;s&#305;nn masallah&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="vki&gt;=25 &amp;&amp; vki&lt;=29.99">
+                                <then>
+                                    <output expression="&quot;fazla kilolu&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="vki&gt;=30 &amp;&amp; vki&lt;=34.99">
+                                        <then>
+                                            <output expression="&quot;1. dereceden obaz&#305;te&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="vki&gt;=35 &amp;&amp; vki&lt;=39.99">
+                                                <then>
+                                                    <output expression="&quot;&#305;k&#305;nc&#305; dereceden obaz&#305;te&quot;" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="vki&gt;=40">
+                                                        <then>
+                                                            <output expression="&quot;3. dereceden obaz&#305;te&quot;" newline="True"/>
+                                                        </then>
+                                                        <else/>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

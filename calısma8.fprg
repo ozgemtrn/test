@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="&#246;zge turan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-05 08:29:06 &#214;&#214;"/>
+        <attribute name="created" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMDU7MDg6MDc6NDIgw5bDljszODQx"/>
+        <attribute name="edited" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMDU7MDg6Mjk6MDYgw5bDljszOzM5NTU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, top" type="Integer" array="False" size=""/>
+            <assign variable="top" expression="0"/>
+            <output expression="&quot;c&#305;kmak &#305;c&#305;n s&#305;f&#305;r deger&#305;n&#305; g&#305;r&#305;n&#305;z&quot;" newline="True"/>
+            <do expression="a!=0">
+                <input variable="a"/>
+                <assign variable="top" expression="top+a"/>
+            </do>
+            <output expression="top" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

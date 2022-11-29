@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="&#246;zge turan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-05 05:23:31 &#214;S"/>
+        <attribute name="created" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMDU7MDM6MTA6Mzggw5ZTOzM3MDQ="/>
+        <attribute name="edited" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMDU7MDU6MjM6MzEgw5ZTOzY7MzgxNg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayac, n, c, a" type="Integer" array="False" size=""/>
+            <output expression="&quot;b&#305;r say&#305; g&#305;r&#305;n&#305;z&quot;" newline="True"/>
+            <assign variable="sayac" expression="0"/>
+            <input variable="n"/>
+            <assign variable="a" expression="1"/>
+            <if expression="n==0">
+                <then>
+                    <output expression="&quot;cullen say&#305;s&#305; tan&#305;mlanamad&#305;&quot;" newline="True"/>
+                </then>
+                <else>
+                    <do expression="a&lt;=n">
+                        <assign variable="c" expression="a*(2^a)+1"/>
+                        <assign variable="a" expression="a+1"/>
+                        <output expression="c" newline="True"/>
+                        <assign variable="sayac" expression="sayac+1"/>
+                    </do>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="&#246;zge turan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-11 08:24:40 &#214;&#214;"/>
+        <attribute name="created" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMTE7MDg6MjI6MjEgw5bDljszODMy"/>
+        <attribute name="edited" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMTE7MDg6MjQ6NDAgw5bDljsxOzM5NDM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="isim" type="String" array="False" size=""/>
+            <output expression="&quot;ism&#305;n&#305;z&#305; giriniz&quot;" newline="True"/>
+            <input variable="isim"/>
+            <output expression="&quot;merhaba &quot;&amp; isim" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

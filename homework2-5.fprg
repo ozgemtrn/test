@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="&#246;zge turan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-05 11:29:50 &#214;S"/>
+        <attribute name="created" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMDU7MTA6Mzg6Mzggw5ZTOzM3MTI="/>
+        <attribute name="edited" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMDU7MTE6Mjk6NTAgw5ZTOzc7MzgyMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayac1, sayac2, n" type="Integer" array="False" size=""/>
+            <input variable="n"/>
+            <assign variable="sayac1" expression="2"/>
+            <assign variable="sayac2" expression="5"/>
+            <output expression="2" newline="True"/>
+            <output expression="3" newline="True"/>
+            <while expression="sayac2&lt;n">
+                <while expression="sayac1&lt;sayac2">
+                    <if expression="sayac2%sayac1!=0">
+                        <then>
+                            <assign variable="sayac1" expression="sayac1+1"/>
+                        </then>
+                        <else>
+                            <assign variable="sayac1" expression="2"/>
+                            <assign variable="sayac2" expression="sayac2+1"/>
+                        </else>
+                    </if>
+                </while>
+                <assign variable="sayac1" expression="2"/>
+                <output expression="sayac2" newline="True"/>
+                <assign variable="sayac2" expression="sayac2+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

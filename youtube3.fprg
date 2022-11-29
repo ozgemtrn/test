@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="&#246;zge turan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-11 09:22:45 &#214;&#214;"/>
+        <attribute name="created" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMTE7MDk6MTg6MDUgw5bDljszODQw"/>
+        <attribute name="edited" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMTE7MDk6MjI6NDUgw5bDljsxOzM5NDc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <for variable="b" start="0" end="9" direction="inc" step="1">
+                <output expression="&quot;&#246;gerenc&#305;ler &#305;c&#305;n rakamlar&#305; yazd&#305;ral&#305;m &quot; &amp; b" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

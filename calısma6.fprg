@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="&#246;zge turan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-02 11:16:33 &#214;S"/>
+        <attribute name="created" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMDI7MTA6Mjg6MDAgw5ZTOzM2OTc="/>
+        <attribute name="edited" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMDI7MTE6MTY6MzMgw5ZTOzI7MzgxMA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="say" type="Integer" array="False" size=""/>
+            <assign variable="say" expression="1"/>
+            <do expression="say&lt;=5">
+                <output expression="&quot;mrrb dnya&quot;" newline="True"/>
+                <assign variable="say" expression="say+1"/>
+            </do>
+        </body>
+    </function>
+</flowgorithm>

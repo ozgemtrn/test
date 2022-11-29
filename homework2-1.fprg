@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="&#246;zge turan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-05 06:47:33 &#214;S"/>
+        <attribute name="created" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMDU7MDY6MzQ6MTQgw5ZTOzM3MDc="/>
+        <attribute name="edited" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMDU7MDY6NDc6MzMgw5ZTOzE7MzgyMA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="T1, T2, T3, n, i" type="Integer" array="False" size=""/>
+            <output expression="&quot;n deger&#305;n&#305; g&#305;r&#305;n&#305;z&quot;" newline="True"/>
+            <input variable="n"/>
+            <assign variable="T1" expression="0"/>
+            <for variable="i" start="1" end="n" direction="inc" step="1">
+                <assign variable="T1" expression="T1+i"/>
+            </for>
+            <assign variable="T2" expression="0"/>
+            <for variable="&#304;" start="2" end="n" direction="inc" step="2">
+                <assign variable="T2" expression="T2+i"/>
+            </for>
+            <assign variable="T3" expression="0"/>
+            <for variable="i" start="2" end="n" direction="inc" step="2">
+                <assign variable="T3" expression="T3+i"/>
+            </for>
+            <output expression="&quot;T1 degerr&#305;&quot;&amp;T1" newline="True"/>
+            <output expression="&quot;T2 deger&#305;&quot;&amp;T2" newline="True"/>
+            <output expression="&quot;T3 deger&#305;&quot;&amp;T3" newline="True"/>
+            <output expression="&quot;NOT:N say&#305;s&#305; dah&#305;l ed&#305;lm&#305;st&#305;r&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

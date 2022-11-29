@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="&#246;zge turan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-05 03:38:06 &#214;S"/>
+        <attribute name="created" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMDU7MDI6NDM6NTIgw5ZTOzM3MDU="/>
+        <attribute name="edited" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMDU7MDM6Mzg6MDYgw5ZTOzE7MzgxNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <if expression="a&lt;40">
+                <then>
+                    <output expression="&quot;1&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="a&lt;=55">
+                        <then>
+                            <output expression="&quot;2&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="a&lt;=70">
+                                <then>
+                                    <output expression="&quot;3&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="a&lt;=85">
+                                        <then>
+                                            <output expression="&quot;4&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="a&lt;=100">
+                                                <then>
+                                                    <output expression="&quot;5&quot;" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <output expression="&quot;hatal&#305; s&#305;nav notu&quot;" newline="True"/>
+                                                    <output expression="&quot;program&#305; tekrar baslat&#305;n&#305;z&quot;" newline="True"/>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="&#246;zge turan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-05 03:10:35 &#214;S"/>
+        <attribute name="created" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMDU7MDI6NTg6MjUgw5ZTOzM3MTE="/>
+        <attribute name="edited" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMDU7MDM6MTA6MzUgw5ZTOzE7MzgwOQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayac, c, toplam, a" type="Integer" array="False" size=""/>
+            <assign variable="toplam" expression="0"/>
+            <assign variable="sayac" expression="1"/>
+            <do expression="sayac&lt;5">
+                <output expression="&quot;b&#305;r say&#305; g&#305;r&#305;n&#305;z&quot;" newline="True"/>
+                <input variable="a"/>
+                <assign variable="toplam" expression="toplam+a"/>
+                <assign variable="sayac" expression="sayac+1"/>
+            </do>
+            <assign variable="c" expression="toplam/sayac"/>
+            <output expression="&quot;ortalama&quot;" newline="True"/>
+            <output expression="c" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

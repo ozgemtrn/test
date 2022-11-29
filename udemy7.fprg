@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="&#246;zge turan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-16 01:32:22 &#214;S"/>
+        <attribute name="created" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMTY7MDE6MTg6MjEgw5ZTOzM3MDQ="/>
+        <attribute name="edited" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMTY7MDE6MzI6MjIgw5ZTOzE7MzgwOQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="yas" type="Integer" array="False" size=""/>
+            <declare name="un&#305;, evet" type="String" array="False" size=""/>
+            <declare name="ehl&#305;yet" type="String" array="False" size=""/>
+            <output expression="&quot;yas&#305;n&#305;z&#305; g&#305;r&#305;n&#305;z&quot;" newline="True"/>
+            <input variable="yas"/>
+            <if expression="40&gt;=yas">
+                <then>
+                    <output expression="&quot;un&#305;vers&#305;te okudunuz mu 'evet','hay&#305;r' yaz&#305;n&#305;z&quot;" newline="True"/>
+                    <input variable="un&#305;"/>
+                    <if expression="un&#305;==&quot;evet&quot;">
+                        <then>
+                            <output expression="&quot;ehl&#305;yet&#305;n&#305;z varsa evet yaz&#305;n yoksa hay&#305;r&quot;" newline="True"/>
+                            <input variable="ehl&#305;yet"/>
+                            <if expression="ehl&#305;yet==&quot;evet&quot;">
+                                <then>
+                                    <output expression="&quot;ise al&#305;nd&#305;n&#305;z&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;malesef taleb&#305;n&#305;z olumsuz yan&#305;t ald&#305;&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </then>
+                        <else>
+                            <output expression="&quot;malesef taleb&#305;n&#305;z olumsuz yan&#305;t ald&#305;&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;malesef taleb&#305;n&#305;z olumsuz yan&#305;t ald&#305;&quot;" newline="True"/>
+                </else>
+            </if>
+            <output expression="&quot;.&quot;" newline="False"/>
+        </body>
+    </function>
+</flowgorithm>

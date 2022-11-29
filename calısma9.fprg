@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="&#246;zge turan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-05 08:33:57 &#214;&#214;"/>
+        <attribute name="created" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMDU7MDg6Mjk6MTAgw5bDljszODQw"/>
+        <attribute name="edited" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMDU7MDg6MzM6NTcgw5bDljsxOzM5NTQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <output expression="&quot;baslang&#305;c deger&#305;n&#305; g&#305;r&#305;n&#305;z&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;b&#305;t&#305;s deger&#305;n&#305; g&#305;r&#305;n&#305;z&quot;" newline="True"/>
+            <input variable="b"/>
+            <assign variable="c" expression="((a+b)*(b-a))/2"/>
+            <output expression="&quot;sonuc&quot;" newline="True"/>
+            <output expression="c" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

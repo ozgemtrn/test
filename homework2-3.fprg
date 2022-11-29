@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="&#246;zge turan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-05 05:25:43 &#214;S"/>
+        <attribute name="created" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMDU7MDQ6NTI6MTYgw5ZTOzM3MDc="/>
+        <attribute name="edited" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMDU7MDU6MjU6NDMgw5ZTOzE7MzgxNg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, x1, y1, uzakl&#305;k" type="Integer" array="False" size=""/>
+            <output expression="&quot;x deger&#305;n&#305; g&#305;r&#305;n&#305;z&quot;" newline="True"/>
+            <input variable="x1"/>
+            <output expression="&quot;y deger&#305;n&#305; g&#305;r&#305;n&#305;z&quot;" newline="True"/>
+            <input variable="y1"/>
+            <output expression="&quot;pol&#305;nomun x on onundek&#305; katsay&#305;y&#305; g&#305;r&#305;n&#305;z&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;pol&#305;nomun y n&#305;n onundek&#305; kat say&#305;y&#305; g&#305;r&#305;n&#305;z&quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;pol&#305;nomun sab&#305;t ter&#305;m&#305;n&#305; g&#305;r&#305;n&#305;z&quot;" newline="True"/>
+            <input variable="c"/>
+            <if expression="0=a*x1+b*y1+c">
+                <then>
+                    <output expression="&quot;dogru denklem&#305; saglar&quot;" newline="True"/>
+                </then>
+                <else>
+                    <assign variable="uzakl&#305;k" expression="(Abs(a*x1+b*y1))/(a^2+b^2)^(1/2)"/>
+                    <output expression="&quot;noktan&#305;n dogruya uzakl&#305;g&#305;&quot;" newline="True"/>
+                    <output expression="uzakl&#305;k" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="&#246;zge turan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-05 06:34:10 &#214;S"/>
+        <attribute name="created" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMDU7MDU6MjU6NDkgw5ZTOzM3MTQ="/>
+        <attribute name="edited" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMDU7MDY6MzQ6MTAgw5ZTOzE7MzgxMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Real" array="False" size=""/>
+            <input variable="c"/>
+            <do expression="a&gt;=c">
+                <assign variable="a" expression="a+1"/>
+                <assign variable="b" expression="0"/>
+                <do expression="b&lt;=c">
+                    <if expression="a*a+b*b=c">
+                        <then>
+                            <output expression="&quot;a=&quot;&amp;a&amp;&quot;b=&quot;&amp;b" newline="True"/>
+                        </then>
+                        <else/>
+                    </if>
+                </do>
+            </do>
+        </body>
+    </function>
+</flowgorithm>

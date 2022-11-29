@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="&#246;zge turan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-11 10:55:52 &#214;&#214;"/>
+        <attribute name="created" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMTE7MTA6NDI6NTkgw5bDljszODM4"/>
+        <attribute name="edited" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMTE7MTA6NTU6NTIgw5bDljsxOzM5NDM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <output expression="&quot;b&#305;r tam say&#305; g&#305;rd&#305;g&#305;n&#305;zde tek m&#305; c&#305;ft m&#305; oldugunu veren programd&#305;r&quot;" newline="True"/>
+            <input variable="a"/>
+            <assign variable="a" expression="Abs(a)"/>
+            <output expression="&quot;Abs islem&#305; mutlak deger&#305;&#305;n&#305; ald&#305; say&#305;n&#305;n&quot;" newline="True"/>
+            <if expression="a%2=0">
+                <then>
+                    <output expression="&quot;say&#305;n&#305;z c&#305;ftt&#305;r&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;say&#305;n&#305;z tekt&#305;r&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

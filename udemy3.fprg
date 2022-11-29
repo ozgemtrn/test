@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="&#246;zge turan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-16 08:44:34 &#214;&#214;"/>
+        <attribute name="created" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMTY7MDg6MzQ6Mzcgw5bDljszODQ3"/>
+        <attribute name="edited" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMTY7MDg6NDQ6MzQgw5bDljsxOzM5NTM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="yabdil1, yabdil2" type="String" array="False" size=""/>
+            <output expression="&quot;b&#305;r&#305;nc&#305; yabanc&#305; d&#305;l&#305;n&#305;z&#305; g&#305;r&#305;n&#305;z&quot;" newline="True"/>
+            <input variable="yabdil1"/>
+            <output expression="&quot;&#305;k&#305;nc&#305; yabanc&#305; d&#305;l&#305;n&#305;z&#305; g&#305;r&#305;n&#305;z&quot;" newline="True"/>
+            <input variable="yabdil2"/>
+            <if expression="yabdil1==&quot;ingilizce&quot; &amp;&amp; yabdil2==&quot;almanca&quot;">
+                <then>
+                    <output expression="&quot;i&#351;e al&#305;nd&#305;n&#305;z&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;malesef i&#351;e al&#305;nmad&#305;n&#305;z&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

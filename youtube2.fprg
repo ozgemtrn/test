@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="&#246;zge turan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-11 09:18:01 &#214;&#214;"/>
+        <attribute name="created" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMTE7MDk6MTU6MzMgw5bDljszODM4"/>
+        <attribute name="edited" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMTE7MDk6MTg6MDEgw5bDljsxOzM5NDQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="String" array="False" size=""/>
+            <output expression="&quot;isminizi giriniz&quot;" newline="True"/>
+            <input variable="b"/>
+            <for variable="a" start="1" end="7" direction="inc" step="1">
+                <output expression="&quot;merhaba &quot;&amp; b" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

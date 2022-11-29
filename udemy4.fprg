@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="&#246;zge turan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-16 08:55:14 &#214;&#214;"/>
+        <attribute name="created" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMTY7MDg6NDU6MjYgw5bDljszODQ3"/>
+        <attribute name="edited" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMTY7MDg6NTU6MTQgw5bDljs1OzM5NTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="yabdil1, yabdil2" type="String" array="False" size=""/>
+            <output expression="&quot;1. dilinizi giriniz&quot;" newline="True"/>
+            <input variable="yabdil1"/>
+            <output expression="&quot;2. dilinizi giriniz&quot;" newline="True"/>
+            <input variable="yabdil2"/>
+            <if expression="yabdil1==&quot;ingilizce&quot;||yabdil2==&quot;almanca&quot;">
+                <then>
+                    <output expression="&quot;al&#305;nd&#305;n&#305;z&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;al&#305;nmad&#305;n&#305;z&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

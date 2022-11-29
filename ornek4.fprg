@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="&#246;zge turan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-05 12:31:22 &#214;S"/>
+        <attribute name="created" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMDU7MTA6MTU6NTMgw5bDljszODM1"/>
+        <attribute name="edited" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTEtMDU7MTI6MzE6MjIgw5ZTOzE7MzgwOA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayac" type="Integer" array="False" size=""/>
+            <declare name="a" type="String" array="False" size=""/>
+            <assign variable="sayac" expression="0"/>
+            <output expression="&quot;&#305;sm&#305;n&#305;z&#305; g&#305;r&#305;n&#305;z&quot;" newline="True"/>
+            <input variable="a"/>
+            <do expression="sayac&lt;10">
+                <output expression="a" newline="True"/>
+                <assign variable="sayac" expression="sayac+1"/>
+            </do>
+            <output expression="sayac" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
